@@ -1,0 +1,16 @@
+{
+  "turboshift.name": "TurboShift",
+  "turboshift.description": "Ultimate Performance Optimization Engine",
+  "turboshift. config.title": "TurboShift Settings",
+  "turboshift. config.category.entity": "Entity Optimizations",
+  "turboshift.config.category.chunk": "Chunk Optimizations",
+  "turboshift.config.category.particle": "Particle Optimizations",
+  "turboshift.config.category.lighting": "Lighting Optimizations",
+  "turboshift.config.category.memory": "Memory Management",
+  "turboshift. config.category.rendering": "Rendering Optimizations",
+  "turboshift.config.profile":  "Performance Profile",
+  "turboshift.config.profile.maximum":  "Maximum Performance",
+  "turboshift.config.profile.balanced": "Balanced",
+  "turboshift.config.profile.quality": "Quality Focused",
+  "turboshift. config.profile.custom": "Custom"
+}

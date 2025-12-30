@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "turboshift",
+  "version": "${version}",
+  "name": "TurboShift",
+  "description": "Ultimate performance optimization mod for Minecraft 1.21.1. Boost your FPS with intelligent engine optimizations including entity culling, particle throttling, multi-threaded chunk rendering, fast lighting, and smart memory management. Experience blazing fast gameplay without sacrificing quality!",
+  "authors": [
+    "Jai023"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Jai023/turboshift",
+    "sources": "https://github.com/Jai023/turboshift",
+    "issues": "https://github.com/Jai023/turboshift/issues"
+  },
+  "license": "MIT",
+  "icon": "assets/turboshift/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.turboshift.TurboShift"
+    ],
+    "client": [
+      "io.turboshift.client.TurboShiftClient"
+    ]
+  },
+  "mixins": [
+    "turboshift.mixins.json",
+    {
+      "config": "turboshift.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

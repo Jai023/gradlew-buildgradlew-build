@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "io.turboshift.mixin. client",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "MixinEntityRenderer",
+    "MixinParticleManager",
+    "MixinChunkBuilder",
+    "MixinLightingProvider",
+    "MixinWorldRenderer",
+    "MixinClientWorld"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
